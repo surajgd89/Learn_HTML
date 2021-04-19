@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <div>
+                <label>Name</label>
+                <input type="text" name="fname" value="" placeholder="Enter your name" />
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" name="" />
+            </div>
+            <div>
+                <label>Gender</label>
+                <input type="radio" name="gender" id="male" />
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" />
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <label>Hobbies</label>
+                <input type="checkbox" name="hobby" id="music" />
+                <label for="music">Music</label>
+                <input type="checkbox" name="hobby" id="football">
+                <label for="football">Football</label>
+            </div>
+            <div>
+                <label>Message</label>
+                <textarea rows="10" cols="60">Yahoo baba</textarea>
+            </div>
+            <div>
+                <label>Country</label>
+                <select name="" size="3" multiple>
+                    <option value="in">India</option>
+                    <option value="pk">Pakistan</option>
+                    <option value="ne">Nepal</option>
+                    <option value="cn" selected>China</option>
+                </select>
+            </div>
+            <div>
+                <label>Cars</label>
+                <select>
+                    <optgroup label="Toyota">
+                        <option>Innova</option>
+                        <option>Etios</option>
+                        <option>Fortuner</option>
+                    </optgroup>
+                    <optgroup label="Renault">
+                        <option>Kwid</option>
+                        <option>Duster</option>
+                        <option>Captur</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label>Cars</label>
+                <input list="cars" />
+                <datalist id="cars">
+                    <option value="Innova">
+                    <option value="Kwid">
+                    <option value="Etios">
+                    <option value="Swift">
+                    <option value="Duster">
+                </datalist>
+            </div>
+            <div>
+                <label>Upload File</label>
+                <input type="file" accept="video/*" name="" />
+            </div>
+            <div>
+                <label>Select Color</label> <input type="color" name="" />
+            </div>
+            <div>
+                <label>Number</label> <input type="number" min="0" max="100" step="10" name="" />
+            </div>
+            <div>
+                <label>Range</label> <input type="range" min="0" max="100" step="10" name="" />
+            </div>
+            <div>
+                <label>Date</label> <input type="date" name="" />
+            </div>
+            <div>
+                <label>DateTime</label> <input type="datetime-local" name="" />
+            </div>
+            <div>
+                <label>Month</label> <input type="month" name="" />
+            </div>
+            <div>
+                <label>Week</label> <input type="week" name="" />
+            </div>
+            <div>
+                <label>Time</label> <input type="time" name="" />
+            </div>
+            <div>
+                <label>Email</label> <input type="email" name="" />
+            </div>
+            <div>
+                <label>URL</label> <input type="url" name="" />
+            </div>
+            <div>
+                <label>Search</label> <input type="search" name="" />
+            </div>
+            <div>
+                <label>Phone No.</label> <input type="tel" name="" />
+            </div>
+            <div>
+                <input type="submit" value="Save" />
+                <input type="reset" />
+                <input type="image" src="IMAGE_PATH" width="20px" alt="Submit button" />
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
