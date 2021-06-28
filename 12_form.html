@@ -8,9 +8,10 @@
 <body>
     <form action="" method="post">
         <fieldset>
+            <legend>my Form</legend>
             <div>
-                <label>Name</label>
-                <input type="text" name="fname" value="" placeholder="Enter your name" />
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="fname" value="" placeholder="Enter your name" />
             </div>
             <div>
                 <label>Password</label>
@@ -36,11 +37,11 @@
             </div>
             <div>
                 <label>Country</label>
-                <select name="" size="3" multiple>
+                <select name="" size="2" multiple>
                     <option value="in">India</option>
                     <option value="pk">Pakistan</option>
-                    <option value="ne">Nepal</option>
-                    <option value="cn" selected>China</option>
+                    <option value="ne" selected>Nepal</option>
+                    <option value="cn">China</option>
                 </select>
             </div>
             <div>
@@ -71,13 +72,13 @@
             </div>
             <div>
                 <label>Upload File</label>
-                <input type="file" accept="video/*" name="" />
+                <input type="file" accept="audio/*" name="" />
             </div>
             <div>
                 <label>Select Color</label> <input type="color" name="" />
             </div>
             <div>
-                <label>Number</label> <input type="number" min="0" max="100" step="10" name="" />
+                <label>Number</label> <input type="number" min="10" max="100" step="10" name="" />
             </div>
             <div>
                 <label>Range</label> <input type="range" min="0" max="100" step="10" name="" />
